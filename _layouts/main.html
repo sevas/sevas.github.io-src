@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>{{ page.title }}</title>
-    <meta name="author" content="">
+    <meta name="author" content="Frederic De Groef">
     <!--meta name="generator" content=""-->
     <!--meta name="description" content=""-->
 </head>
@@ -12,10 +12,13 @@
 
 <div class="container">
     <!--header-->
-    <!--div class="span-24 last">
-        <span style="font-size: 32pt">JOSHUA HOLBROOK</span> : <a 
+    <div class="span-24 last">
+        <span style="font-size: 32pt">Lorem ipsum</span> : 
+        <a href="http://www.github.com/sevas">Github</a> :
+        <a href="http://www.bitbucket.org/sevas">Bitbucket</a>:
+        <a href="http://www.twitter.com/sevas">Twitter</a> 
     <hr>
-    </div-->
+    </div>
 
     <!--content-->
     <div class="span-15 colborder">
@@ -23,7 +26,7 @@
     </div>
 
     <div class="span-8 last">
-        <h3>Archive</h3>
+        <h3>Previous posts</h3>
         <div class="box">
             <ul>
             {% for post in site.posts %}
@@ -36,6 +39,7 @@
     <!--footer-->
     <div class="span-24 last">
         <hr>
+        <p>Last update : {{ site.time }}.</p>
     </div>
 </div>
 
