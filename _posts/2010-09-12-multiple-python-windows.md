@@ -61,7 +61,7 @@ Once this is done, you can now:
 
 Repeat for every python installation.
 
-## Final notes
+## Final note
 
 This is not a mean to register several python distribution with your IDE.
 Any decent python IDE, such as [Pydev](http://pydev.org/) for eclipse or
