@@ -2,6 +2,7 @@
 layout: main
 ---
 
-<span style="font-size: 24pt">{{ page.title }}</span> <b>(posted {{ page.date }} )</b>
-
+<span class="quiet"><b>{{page.date | date: "%d %b %Y"}}</b></span>
+<br/>
+<span style="font-size: 24pt">{{ page.title }}</span> 
 {{content}}

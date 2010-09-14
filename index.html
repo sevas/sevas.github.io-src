@@ -1,7 +1,23 @@
 ---
 layout: main
 title: braindump_
+full_posts: 5
 ---
 
-<h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
-    {{ site.posts.first.content }}
+
+{% for post in site.posts %}
+  {% if forloop.index < page.full_posts %}
+
+  <span class="quiet"><b>{{post.date | date: "%d %b %Y"}}</b></span>
+  <h2><a href="{{ site.posts.first.url }}">{{ post.title }}</a></h2>
+  {{ post.content }}
+
+  {% if post != site.posts.last or forloop.index==full_posts-1 %}
+    <br/> <br/> <br/>
+    <br/> <br/> <br/>
+    <hr>
+    <br/>
+  {% endif %}
+
+  {% endif %}
+{% endfor %}
