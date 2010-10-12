@@ -23,7 +23,7 @@ First, you need a `.bat` file that will set various environment
 variables. Here is an example file, targetted at my EPD installation,
 which is installed in `C:\Python26_EPD622`:
 
-<script src="http://gist.github.com/575989.js?file=epd62.bat"></script>
+<script src="http://gist.github.com/575989.js?file=epd62.bat"> </script>
 
 Copy this, and change the `PYTHON_ROOT` variable to the root folder of the python
 installation you're configuring. Put the file anywhere you want to.
