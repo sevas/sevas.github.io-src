@@ -5,18 +5,7 @@ layout: main
 
 
 
-<b>{{page.date | date: "%d %b %Y"}}</b>
-<br/>
-<h3>{{ page.title }}</h3> 
-{{content}}
-
-
-<!--div class="post single hentry">
-  <!--h5 class="postDate">
-    <abbr class="published">
-      {{page.date | date: "%d %b %Y"}}
-    </abbr>
-  </h5>
+<div class="post single hentry">
 
 
   <div class="postContent">
@@ -25,11 +14,23 @@ layout: main
     </h3>
     
 
+    
     <div class="entry-content">
       <div class="document">
         {{content}}
       </div>
     </div>
-  </div>
-  
-</div-->
+
+    <div class="postMeta">
+      <div class="postDate">
+        <span>Published:</span> 
+        <abbr class="published" title="2010-11-08T09:00:15+0000">
+          
+            {{page.date | date: "%B %d, %Y"}}
+          
+        </abbr>
+      </div>
+    </div>
+
+  </div>  
+</div>
