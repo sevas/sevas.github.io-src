@@ -2,7 +2,34 @@
 layout: main
 ---
 
-<span class="quiet"><b>{{page.date | date: "%d %b %Y"}}</b></span>
+
+
+
+<b>{{page.date | date: "%d %b %Y"}}</b>
 <br/>
-<span style="font-size: 24pt">{{ page.title }}</span> 
+<h3>{{ page.title }}</h3> 
 {{content}}
+
+
+<!--div class="post single hentry">
+  <!--h5 class="postDate">
+    <abbr class="published">
+      {{page.date | date: "%d %b %Y"}}
+    </abbr>
+  </h5>
+
+
+  <div class="postContent">
+    <h3 class="entry-title">
+      {{ page.title }} 
+    </h3>
+    
+
+    <div class="entry-content">
+      <div class="document">
+        {{content}}
+      </div>
+    </div>
+  </div>
+  
+</div-->

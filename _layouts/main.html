@@ -4,9 +4,14 @@
 <head>
   <title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="http://sevas.github.com/css/blueprint/screen.css" type="text/css" media="screen, projection">
-  <link rel="stylesheet" href="http://sevas.github.com/css/blueprint/print.css" type="text/css" media="print">
-  <link rel="alternate" type="application/rss+xml" href="http://sevas.github.com/atom.xml" />
+  <link rel="stylesheet" 
+        href="css/manifest/style.css" 
+        type="text/css" media="screen" charset="utf-8">
+
+
+  <link rel="alternate" 
+        type="application/rss+xml" 
+        href="atom.xml" />
 
   <meta name="author" content="Frederic De Groef">
   <meta name="generator" content="a text editor">
@@ -15,47 +20,46 @@
 
 <body>
 
-  <div class="container">
-    <!--header-->
-    <div class="span-24 last">
-      <span style="font-size: 32pt">braindump_</span>  
-      <hr>
+  <div id="siteWrapper">
+    <h1 class="vcard author">
+      <a href="http://sevas.github.com/" title="Home"
+         class="fn">
+        braindump_
+      </a>
+    </h1>
+
+    <div id="mainNav">
+      <ul>
+        <li>About</li>
+        <!--li>Archives</li-->
+        <li><a href="atom.xml">Subscribe</a></li>
+      </ul>
     </div>
-    
-    <!--content-->
-    <div class="span-15 colborder">
-      {{ content }}
-    </div>
-    
-    
-    <div class="span-8 last">
-      <h3>Lifestream</h3>
-      <div class="box">
-        <ul>
-          <li><a href="http://www.twitter.com/sevas">Twitter</a> </li>
-          <li><a href="http://delicious.com/sevas">Delicious bookmarks</a></li>
-          <li><a href="http://www.google.com/reader/shared/06464567764332403756">Google Reader</a></li>
-          <li><a href="http://www.github.com/sevas">Github</a> </li>
-          <li><a href="http://www.bitbucket.org/sevas">Bitbucket</a> </li>
-        </ul>
-      </div>
-      
-      <h3>Previous posts</h3>
-      <div class="box">
-        <ul>
-          {% for post in site.posts %}
-          <li> {{ post.date | date_to_string }} : <a href="{{ post.url }}">{{ post.title }}</a> </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    
-    <!--footer-->
-    <div class="span-24 last">
-      <hr>
-      <p>Last updated : {{ site.time }}.</p>
-    </div>
+
+
+  
+  <div id="siteDescription">
   </div>
 
+ 
+    <!--content-->
+    <div id="coreContent" class="hfeed">
+      {{ content }}
+    </div>
+
+  
+    <!--footer-->
+    <div class="footerContent">
+      <p>Last updated : {{ site.time }}.</p>
+      <br/>
+      <p>&copy; Powered by <a href="http://jekyllrb.com/">Jekyll</a>,
+        hosted on <a href="http://github.com">GitHub</a></p>
+      <p><a href="http://jimbarraud.com/manifest/">Manifest</a>
+      Wordpress theme by Jim Barraud</p>
+
+    </div>
+  </div>
+  
+</div>
 </body>
 </html>
