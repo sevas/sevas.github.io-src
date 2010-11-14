@@ -916,6 +916,16 @@ h2.archiveTitle strong{
   font-size: 2.3em;
 }
 
+/*
+#archives #linkList{
+    float: left;
+}*/
+
+/*#archives #linkList abbr{
+    float: right;
+}*/
+
+
 /* Recent Posts (on the 404 page)
 -------------------------------------------------------------------- */
 
@@ -1067,4 +1077,36 @@ a.comment-edit-link:visited{
   height: 0; 
   clear: both; 
   visibility: hidden;
+}
+
+
+
+
+/* Custom rules, not from original Manifest theme
+-------------------------------------------------------------------- */
+
+#linkList {
+
+  width: 500px;
+  margin: 20px auto;
+  float: left;
+}
+
+#linkList li {
+  list-style: none;
+  
+  height: 20px;
+  margin: 0;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+#linkList a {
+  float: left;
+
+}
+
+#linkList abbr {
+  float: right;
+  font-size: 12px;
+  color: #999;
 }
