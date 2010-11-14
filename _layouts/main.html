@@ -38,6 +38,7 @@
 
   
   <div id="siteDescription">
+    
   </div>
 
     <!--content-->
@@ -49,9 +50,10 @@
   
     <!--footer-->
     <div class="footerContent">
-      <p>Last updated : {{ site.time }}.</p>
       <br/>
-      <p>&copy; Powered by <a href="http://jekyllrb.com/">Jekyll</a>,
+      <p>Last updated : {{ site.time | date: "%B %d, %Y" }}.</p>
+      <br/>
+      <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a>,
         hosted on <a href="http://github.com">GitHub</a></p>
       <p><a href="http://jimbarraud.com/manifest/">Manifest</a>
       Wordpress theme by Jim Barraud</p>
