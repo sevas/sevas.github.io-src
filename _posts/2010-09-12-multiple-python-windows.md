@@ -4,7 +4,7 @@ title: Managing multiple python installations on Windows
 ---
 
 
-## Problem
+### Problem
 
 So sometimes, it might be good idea to keep several sandboxed python installations.
 Here are some examples where such a scenario may occur:
@@ -14,7 +14,7 @@ Here are some examples where such a scenario may occur:
 * What about using python3 alongside everything else?
 
 
-## A Solution
+### A Solution
 
 The idea here is to create a command prompt shortcut for every
 concurrent python installation.
@@ -61,7 +61,7 @@ Once this is done, you can now:
 
 Repeat for every python installation.
 
-## Final note
+### Final note
 
 This is not a mean to register several python distribution with your IDE.
 Any decent python IDE, such as [Pydev](http://pydev.org/) for eclipse or
