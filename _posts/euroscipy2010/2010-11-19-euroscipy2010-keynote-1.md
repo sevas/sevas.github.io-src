@@ -49,19 +49,19 @@ received by the students.
 
 ### Why python is the language of choice ?
 
-Python is a great tool for quick prototyping, unlike Java. It's also a
-general purpose programming language, suitable for many computing tasks,
+Python is a great tool for quick prototyping, unlike Java. It also is a
+general purpose programming language, suitable for many kinds of computing tasks,
 unlike matlab.
 In previous years, students were doing matlab after an introduction
 course with Java. It was hard to establish a connection between what
 was learned in the programming course, and all the apparent magic going on in matlab. 
 Python offers a natural transition from matlab-style flat
 scripts, to full fledged object-oriented applications with complex
-GUIs, data processing, results reporting.
+GUIs, data processing and results reporting.
 
 Python is executable pseudo-code. This helps students focus on the problem
 to solve, rather than deal with the syntax. Producing an algorithmic
-solution improves how student actually understand the material. This
+solution improves how student effectively understands the material. This
 is what should matter first.
 
 
@@ -77,8 +77,8 @@ Throw in some C and FORTRAN extensions (which are ubiquituous as soon
 as you're using python for science) and you're in for hell of a
 ride.
 
-To prevent losing too much time on this, the course officially
-supports Ubuntu as a platform (dualboot or
+To prevent spending too much time on this, the course officially
+supports Ubuntu as a the only platform (dualboot or
 [virtualbox](http://www.virtualbox.org/)). Students can then get all
 the required software through a dedicated package repository (e.g. `apt-get install
 mycourse`).
@@ -86,7 +86,7 @@ mycourse`).
 Install parties are organized to help beginners get their setup ready.
 Experience shows that people are more happy with this approach.
 
-People who don't like Ubuntu will need to figure it out by themselves.
+People who don't like Ubuntu will need to figure out the installation by themselves.
 
 
 
@@ -114,15 +114,19 @@ problems.
 
 
 
-### Parallel Computing
+### Parallel computing
 
 Scientists often need to launch long computations on computer
 clusters. 
+[mpi4py](http://mpi4py.scipy.org/docs/usrman/index.html) are python
+bindings for the popular message passing library
+[MPI](http://www.mpi-forum.org/), which is one way to enable
+exploitation of multiprocessor architectures.
 
-[mpi4py](http://mpi4py.scipy.org/docs/usrman/index.html) 
-The idea is to control the pipeline, set the simulation parameters with
-python, and let the high-performance, often legacy FORTRAN code, do
-the number crunching. Of course, we could also use numpy/scipy for that.
+A typical scenario would be using python to control the pipeline, set
+the simulation parameters, and let the high-performance, often legacy FORTRAN code, do
+the number crunching. Numpy and scipy can also be used for
+that kind of heavy lifting.
 
 
 ### Further improving the adoption of python in science
