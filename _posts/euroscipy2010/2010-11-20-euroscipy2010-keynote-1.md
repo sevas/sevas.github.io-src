@@ -20,30 +20,17 @@ hands-on approach. Students need to launch simulations, tinker
 with parameters, vizualize outcomes from day one. This is the
 future of science education.
 
-Undergrads math courses were recently redesigned at University of Oslo. 
-The current, revamped cursus is outlined as follows:
-
-First semester:
-- calculus
-- numerical calculus
-- scientific computer programming with python
-
-Second semester:
-- vector calculus with numerics
-- lienar algrebra
-- mechanics with simulation
-
-Third semester:
-- more calculus and algebra
-- scientific courses with simulation
-
+Undergrads mathematics and mathematical modeling courses were recently
+redesigned at University of Oslo.
+The current, revamped cursus includes calculus, numerical calculus,
+scientific programming using python, 
+vector calculus and linear algebra, mechanics with simulation.
 
 There is a very strong focus on experimentation.
 An example of first year project is the numerical simulation of a
 pendulum with friction. This is fairly advanced material that wasn't
 covered by previous undergrad courses. This approach was really well
 received by the students.
-
 
 
 
@@ -71,14 +58,14 @@ is what should matter first.
 One of the biggest problem with a python scientific stack, is the pain involved
 when deploying an application with its dependencies, or just
 setting up the right development environment for scientific computing.
-There are several ditributions ([Enthought Python Distribution](http://www.enthought.com/products/epd.php), [python(x,y)](http://www.pythonxy.com/), [SAGE](http://www.sagemath.org/), linux distribution
+There are several distributions ([Enthought Python Distribution](http://www.enthought.com/products/epd.php), [python(x,y)](http://www.pythonxy.com/), [SAGE](http://www.sagemath.org/), linux distribution
 package systems, ...). This is a lot to maintain in parallel.
 Throw in some C and FORTRAN extensions (which are ubiquituous as soon
 as you're using python for science) and you're in for hell of a
 ride.
 
 To prevent spending too much time on this, the course officially
-supports Ubuntu as a the only platform (dualboot or
+supports Ubuntu as the only platform (dualboot or
 [virtualbox](http://www.virtualbox.org/)). Students can then get all
 the required software through a dedicated package repository (e.g. `apt-get install
 mycourse`).
@@ -131,17 +118,17 @@ that kind of heavy lifting.
 
 ### Further improving the adoption of python in science
 
-One of the strong point for matlab is the ubiquity of code samples
-available. We need that for python. 
+One of the strong points of matlab is the ubiquity of code samples
+available. We need that for the python scientific stack. 
 
 Unification of interfaces between
-ODE solvers, linear algebra packages, visualization packaging is much
+ODE solvers, linear algebra packages, visualization packages is much
 needed.
 
 There are still skeptics about whether a "scripting language" can be a
 fitting choice for high-performance computations. Finding and referencing
 real-world examples in which python was succesfully used helps. The
-bottom line being that one doesn't **need** to write the whole application
+bottom line being that one doesn't need to write the whole application
 in C or C++ for it to be fast.
 
 
