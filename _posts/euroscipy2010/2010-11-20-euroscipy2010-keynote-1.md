@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EuroScipy 2010 - Advanced Teaching and Research with Python 
+title: EuroScipy 2010 Keynote Talk - Advanced Teaching and Research with Python 
 ---
 
 
