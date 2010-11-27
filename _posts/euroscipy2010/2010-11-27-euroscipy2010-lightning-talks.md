@@ -108,7 +108,7 @@ An effort to centralize informations about [SNPs](http://www.snpedia.com/index.p
 For every SNP, SNPedia links to related research papers. The database
 is used by the
 [Promethease](http://www.snpedia.com/index.php/Promethease ) reporting
-tool, which can import data data from genetic services like
+tool, which can import data data from genetic testing services like
 [23andme](https://www.23andme.com/).
 
 The slides are still available as a [Google Docs presentation](http://tinyurl.com/mydna123).
@@ -116,9 +116,9 @@ The slides are still available as a [Google Docs presentation](http://tinyurl.co
 
 ### Interfacing with instruments for experimental physics
 
-This is call for feedback on how python could be used to
+This is call for feedback on how python could help to
 replace [Labview](http://www.ni.com/labview/), to interface with
-measurements and control hardware ubiquitous in experimental physics.
+measurements and control hardware used in experimental physics.
 Vendors rarely ships a python API. And a GUI tool like Labview does
 not shine to run batch experiments, where a script would be great. 
 
