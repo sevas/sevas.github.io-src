@@ -103,7 +103,7 @@ Uses Gaussian error propagation.
 
 ### [SNPedia](http://www.snpedia.com/index.php/SNPedia)
 
-A wiki who gathers information about [SNPs](http://www.snpedia.com/index.php/SNP) (*"snips"*).
+An effort to centralize informations about [SNPs](http://www.snpedia.com/index.php/SNP) (*"snips"*).
 
 For every SNP, SNPedia links to related research papers. The database
 is used by the
