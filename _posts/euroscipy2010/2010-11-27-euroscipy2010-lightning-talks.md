@@ -116,8 +116,7 @@ The slides are still available as a [Google Docs presentation](http://tinyurl.co
 
 ### Interfacing with instruments for experimental physics
 
-This is call for feedback on how python could help to
-replace [Labview](http://www.ni.com/labview/), to interface with
+This is call for feedback on how python could help replacing  [Labview](http://www.ni.com/labview/), to interface with
 measurements and control hardware used in experimental physics.
 Vendors rarely ships a python API. And a GUI tool like Labview does
 not shine to run batch experiments, where a script would be great. 
