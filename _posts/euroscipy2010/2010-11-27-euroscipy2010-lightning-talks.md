@@ -127,7 +127,7 @@ not shine to run batch experiments, where a script would be great.
 
 > Why and when did you leave matlab and labview?
 
-The speaker did not left matlab. Only the *"nightmare"* (sic) that is Labview.
+The speaker did not leave matlab. Only the *"nightmare"* (sic) that is Labview.
 
 > If you get a binary vendor DLL, why not use ctypes ?
 
