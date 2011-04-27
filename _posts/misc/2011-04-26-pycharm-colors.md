@@ -11,9 +11,7 @@ title: Solarized Light color scheme for PyCharm
 is a neat development environment, especially if you're
 working with [Google App Engine](http://code.google.com/appengine/ )
 or [Django](http://www.djangoproject.com/ ). But the default color
-scheme is pretty horrendous. 
-
-Their effort to bundle additional schemes has been less than
+scheme is pretty horrendous, and their effort to bundle additional schemes has been less than
 fruitful, in my opinion (seriously, WarmNeon?)
 
 In addition, I find that using dark color schemes in a environment where a
