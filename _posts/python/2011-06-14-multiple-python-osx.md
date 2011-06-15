@@ -36,11 +36,9 @@ What I want, is an easy way to switch between all these different
 python installations from my shell. For instance, going from the OSX
 python 2.6 installation to python 3.1:
 
-    (System Python 2.6) sevas at ysgard in ~    
     $ select_macpython31    
     Setting environment for MacPython 3.1
 
-    (MacPython 3.1) sevas at ysgard in ~    
     $ python3
     Python 3.1.3 (r313:86882M, Nov 30 2010, 09:55:56) 
     [GCC 4.0.1 (Apple Inc. build 5494)] on darwin
@@ -50,13 +48,11 @@ python 2.6 installation to python 3.1:
 
 And then, I could switch to the new python 3.2 you just got from [python.org](http://www.python.org/download/):
 
-    (MacPython 3.1) sevas at ysgard in ~    
+
     $ select_macpython32
     Setting environment for MacPython 3.2
 
-    (MacPython 3.2) sevas at ysgard in ~    
-    $ python3
-    
+    $ python3    
     Python 3.2 (r32:88452, Feb 20 2011, 11:12:31) 
     [GCC 4.2.1 (Apple Inc. build 5664)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
@@ -130,12 +126,18 @@ If you run:
      $ update_python_switchers.py --use-fancy-prompt
      
 you will get my carefully crafted prompt with fancy colors.  
+
+This is how it looks:
+
+![Alt Text](http://dl.dropbox.com/u/260262/blog/2011-06-14/fancy_prompt.png ) 
+
+
 You will find the color variables in my
 [``.bash_profile``](https://github.com/sevas/dotfiles/blob/master/.bash_profile
 ) file. 
 
 
-If you have a custom prompt, just go ahead and edit the function
+If you already have a custom prompt, just go ahead and edit the function
 generation template in ``update_python_switchers.py`` to your liking. 
 
 And if you don't like it, well, it's pretty easy to remove anyway.
