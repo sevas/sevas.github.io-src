@@ -72,7 +72,7 @@ What we need is a bunch of bash functions to update the ``PATH``
 environment variable, so that the selected python installation is the
 default. If you had 3 pythons, it would look like this:
 
-<script src="https://gist.github.com/1021380.js?file=gistfile1.bash"></script>
+<script src="https://gist.github.com/1021380.js?file=gistfile1.bash"> </script>
 <br/>
 
 But because I'm lazy, I don't want to write a switching
@@ -100,7 +100,7 @@ If you download and run it, you should see something like this:
 
 Next, you will need to add this to your ``$HOME/.bash_profile``:
 
-<script src="https://gist.github.com/1021386.js?file=gistfile1.bash"></script>
+<script src="https://gist.github.com/1021386.js?file=gistfile1.bash"> </script>
 <br/>
 
 Now you will be able to use the switching functions from your shell,
@@ -115,7 +115,7 @@ like I showed earlier
 If you read until now, maybe you tried it, and noticed your prompt was different.
 The reason is that the generated switchers actually look more like this:
 
-<script src="https://gist.github.com/1021391.js?file=gistfile1.bash"></script>
+<script src="https://gist.github.com/1021391.js?file=gistfile1.bash"> </script>
 <br/>
 
 This is because I find it useful to know at a glance in which environment
