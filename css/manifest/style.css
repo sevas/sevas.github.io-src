@@ -398,6 +398,7 @@ input[type=submit]:focus{
   margin: 0 0 5px;
   font-style: normal;
   position: static;
+
 }
 
 .entry-content h1{
@@ -1122,5 +1123,13 @@ a.comment-edit-link:visited{
 #gotoArchives a {
     font-size: large; 
     color: #000;
+}
+
+
+
+
+.entry-title{
+    font-variant: small-caps;
+    
 }
 
