@@ -198,7 +198,7 @@ input[type=submit]:focus{
   margin: 0 auto;
   padding-top: 15px;
   width: 500px;
-  text-align: center;
+  text-align: cente;
   position: relative;
   
 }
@@ -1109,18 +1109,5 @@ a.comment-edit-link:visited{
   float: right;
   font-size: 12px;
   color: #999;
-}
-
-
-#gotoArchives {
-    text-align: center;
-    
-}
-
-
-
-#gotoArchives a {
-    font-size: large; 
-    color: #000;
 }
 
