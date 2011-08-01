@@ -428,6 +428,8 @@ input[type=submit]:focus{
   line-height: 18px;
   margin-bottom: 15px;
   
+  border: 1px solid #dedede;
+  /*background-color: ghostWhite;*/
   background-color: #f2f2f2;
   overflow: auto;
   padding: 4px 4px 8px 4px;
