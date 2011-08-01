@@ -46,7 +46,7 @@ python 2.6 installation to python 3.1:
     >>> exit()
     
 
-And then, I could switch to the new python 3.2 you just got from [python.org](http://www.python.org/download/):
+And then, I could switch to the new python 3.2 I just got from [python.org](http://www.python.org/download/):
 
 
     $ select_macpython32
