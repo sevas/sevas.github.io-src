@@ -359,6 +359,9 @@ input[type=submit]:focus{
 .entry-content a:visited{
   text-decoration: underline;
 }
+
+
+
 .hentry{
   position: relative;
   padding-bottom: 37px;
@@ -424,7 +427,18 @@ input[type=submit]:focus{
   font-size: 1.5em;
   line-height: 18px;
   margin-bottom: 15px;
+  
+  background-color: #f2f2f2;
+  overflow: auto;
+  padding: 4px 4px 8px 4px;
 }
+
+.entry-content pre code {
+  font-size: 1.0em;
+  
+}
+
+
 .entry-content ul,
 .entry-content ol{
   margin: 0 0 20px 15px;
@@ -1131,5 +1145,9 @@ a.comment-edit-link:visited{
 .entry-title{
     font-variant: small-caps;
     
+}
+
+.gist-file {
+    font-size: 0.8em;
 }
 
