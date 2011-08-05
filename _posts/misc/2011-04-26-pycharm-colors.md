@@ -12,7 +12,7 @@ is a neat development environment, especially if you're
 working with [Google App Engine](http://code.google.com/appengine/ )
 or [Django](http://www.djangoproject.com/ ). But the default color
 scheme is pretty horrendous, and their effort to bundle additional schemes has been less than
-fruitful, in my opinion (seriously, WarmNeon?)
+fruitful, in my opinion (seriously, [WarmNeon](http://dl.dropbox.com/u/260262/blog/2011-04-26-pycharm-colors/warmneon.png)?)
 
 In addition, I find that using dark color schemes in a environment where a
 significant area will stay white and bright is pretty idiotic. And I know
