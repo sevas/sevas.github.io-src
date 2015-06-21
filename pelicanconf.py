@@ -36,10 +36,8 @@ SITEMAP = {
     }
 }
 
-THEME = 'pelican-elegant'
+THEME = 'nikhil-theme'
 #THEME_STATIC_DIR = 'themes'
-
-SITE_LICENSE = u'<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> braindump_</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://sevas.github.io" property="cc:attributionName" rel="cc:attributionURL">Frederic De Groef</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.'
 
 
 
@@ -51,10 +49,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social
 SOCIAL = (
@@ -70,25 +68,24 @@ EXTRA_PATH_METADATA = {
 }
 
 
-LANDING_PAGE_ABOUT = {
-    'title': 'Hello',
-    'details': """
-<p>It appears I'm writing software for a living, mostly using python and C++.  This is a place to store written notes about things that I find interesting or
-useful, so they don't fill up my brain.
-</p>
+# LANDING_PAGE_ABOUT = {
+#     'title': 'Hello',
+#     'details': """
+# <p>It appears I'm writing software for a living, mostly using python and C++.  This is a place to store written notes about things that I find interesting or
+# useful, so they don't fill up my brain.
+# </p>
 
-<p>Unpolished side-projects I work on can be found on
-<a href="http://github.com/sevas">github</a> and
-<a href="http://bitbucket.org/sevas">bitbucket</a>.
- I share <a href="https://plus.google.com/u/0/117359550292524106955/about">things</a>  and
-occasionally <a href="https://twitter.com/sevas">whine</a> online.
-</p>
+# <p>Unpolished side-projects I work on can be found on
+# <a href="http://github.com/sevas">github</a> and
+# <a href="http://bitbucket.org/sevas">bitbucket</a>.
+#  I share <a href="https://plus.google.com/u/0/117359550292524106955/about">things</a>  and
+# occasionally <a href="https://twitter.com/sevas">whine</a> online.
+# </p>
 
-<p>Nothing fancy, really.</p>
+# <p>Nothing fancy, really.</p>
 
-    """
-
-}
+#     """
+# }
 
 # SMO
 TWITTER_USERNAME = u'sevas'

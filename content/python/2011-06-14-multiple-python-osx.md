@@ -7,7 +7,7 @@ Slug: multiple-python-osx
 Authors: sevas
 Summary: Keep your toys in separate boxes
 
-# There is a party in my OSX
+## There is a party in my OSX
 
 And all the pythons got invited.
 
@@ -33,7 +33,7 @@ Alright.
 
 
 
-# Fast switching
+## Fast switching
 
 What I want, is an easy way to switch between all these different
 python installations from my shell. For instance, going from the OSX
@@ -47,7 +47,7 @@ python 2.6 installation to python 3.1:
     [GCC 4.0.1 (Apple Inc. build 5494)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
     >>> exit()
-    
+
 
 And then, I could switch to the new python 3.2 I just got from [python.org](http://www.python.org/download/):
 
@@ -55,11 +55,11 @@ And then, I could switch to the new python 3.2 I just got from [python.org](http
     $ select_macpython32
     Setting environment for MacPython 3.2
 
-    $ python3    
-    Python 3.2 (r32:88452, Feb 20 2011, 11:12:31) 
+    $ python3
+    Python 3.2 (r32:88452, Feb 20 2011, 11:12:31)
     [GCC 4.2.1 (Apple Inc. build 5664)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
-    >>> 
+    >>>
 
 
 That would be nice. And that's exactly what this page is about.
@@ -77,7 +77,7 @@ default. If you had 3 pythons, it would look like this:
 But because I'm lazy, I don't want to write a switching
 function everytime I add a python, I made
 [this](https://github.com/sevas/dotfiles/blob/0.1/scripts/update_python_switchers.py)
-instead. 
+instead.
 
 This script looks in the directories where python is usually installed,
 detects all the versions, and generates a ``.python_switchers.sh``
@@ -85,7 +85,7 @@ file. This file will have all the switching functions.
 
 If you download and run it, you should see something like this:
 
-    $ update_python_switchers.py 
+    $ update_python_switchers.py
     Using generic prompt
     Adding System Python 2.3
     Adding System Python 2.5
@@ -109,7 +109,7 @@ like I showed earlier
 
 
 
-### What have you done to my prompt?
+#### What have you done to my prompt?
 
 If you read until now, maybe you tried it, and noticed your prompt was different.
 The reason is that the generated switchers actually look more like this:
@@ -122,12 +122,12 @@ I'm working, so I modified the ``PS1`` variable accordingly.
 
 
 
-# Fancy colors for fancy people
+## Fancy colors for fancy people
 
 If you run:
 
      $ update_python_switchers.py --use-fancy-prompt
-     
+
 you will get my carefully crafted prompt with fancy colors.  
 
 This is how it looks:
@@ -137,7 +137,7 @@ This is how it looks:
 
 You will find the color variables in my
 [``.bash_profile``](https://github.com/sevas/dotfiles/blob/master/.bash_profile
-) file. 
+) file.
 
 
 If you already have a custom prompt, just go ahead and edit the function
@@ -147,7 +147,7 @@ And if you don't like it, well, it's pretty easy to remove anyway.
 This could obviously be improved. Maybe I will.
 
 
-### You should use [virtualenv](http://www.virtualenv.org/en/latest/index.html ) and [virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/ ) 
+#### You should use [virtualenv](http://www.virtualenv.org/en/latest/index.html ) and [virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/ )
 
 
 Well I do. These switchers are working on another level.
@@ -155,7 +155,7 @@ virtualenv is mostly about having many concurrent ``site-packages`` directories.
 
 
 
-# One more thing
+## One more thing
 
 This script requires the [``argparse``](http://code.google.com/p/argparse/) module, so you should go
 ahead and install it with:

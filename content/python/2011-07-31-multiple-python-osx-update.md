@@ -8,11 +8,10 @@ Authors: sevas
 Summary: Add a new toy to your collection
 
 
-# Digression: Enthought Python Distribution considered awesome
+## Digression: Enthought Python Distribution considered awesome
 
 The main reason I made this program is because, alongside the
-Apple-supplied python and the vanilla pythons from [python.org](http://python.org), I use a 
-[pretty badass python distribution](http://www.enthought.com/products/epd.php)
+Apple-supplied python and the vanilla pythons from [python.org](http://python.org), I use a [python distribution](http://www.enthought.com/products/epd.php)
 dedicated to scientific work. 
 
 Anyone who ever lost an afternoon trying to install
@@ -24,7 +23,7 @@ You should be thankful for this.
 I know I am. 
  
 
-# Alright, alright. So what's new?
+## Alright, alright. So what's new?
 
 
 Well, the program described in
@@ -40,7 +39,7 @@ Grab it on [github](https://github.com/sevas/dotfiles/blob/0.2.1/scripts/update_
 
 
 
-# What's next?
+## What's next?
 
 I realize that this is a really simple and, perhaps, clumsy way to
 switch between multiple python runtimes. 

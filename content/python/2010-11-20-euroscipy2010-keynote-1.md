@@ -14,9 +14,9 @@ EuroScipy 2010 conference in Paris.*
 
 
 
-# Teaching science and engineering
+## Teaching science and engineering
 
-## Case study : University of Oslo, Norway
+### Case study : University of Oslo, Norway
 
 Mathematics and engineering sciences should be taught with a very
 hands-on approach. Students need to launch simulations, tinker
@@ -37,7 +37,7 @@ received by the students.
 
 
 
-## Why python is the language of choice?
+### Why python is the language of choice?
 
 Python is a great tool for quick prototyping, unlike Java. It also is a
 general purpose programming language, suitable for many kinds of computing tasks,
@@ -56,7 +56,7 @@ is what should matter first.
 
 
 
-## Fighting deployment hell
+### Fighting deployment hell
 
 One of the biggest problem with a python scientific stack, is the pain involved
 when deploying an application with its dependencies, or just
@@ -80,10 +80,10 @@ People who don't like Ubuntu will need to figure out the installation by themsel
 
 
 
-# Research & High Performance Computing
+## Research & High Performance Computing
 
 
-## *"Python is slow"*
+### *"Python is slow"*
 
 Addressing the myth: it turns out all you really need
 is to compile your number crunching loops and call it a day. Popular strategies for
@@ -92,7 +92,7 @@ this includes [cython](http://www.cython.org/) and
 
 
 
-## Large scale projects
+### Large scale projects
 
 Python is not just suitable for small school projects. 
 [fenics](http://www.fenicsproject.org), [pyadh](https://adh.usace.army.mil/pyadh/),
@@ -104,7 +104,7 @@ problems.
 
 
 
-## Parallel computing
+### Parallel computing
 
 Scientists often need to launch long computations on computer
 clusters. 
@@ -119,7 +119,7 @@ the number crunching. Numpy and scipy can also be used for
 that kind of heavy lifting.
 
 
-## Further improving the adoption of python in science
+### Further improving the adoption of python in science
 
 One of the strong points of matlab is the ubiquity of code samples
 available. We need that for the python scientific stack. 
