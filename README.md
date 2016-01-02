@@ -1,1 +1,1 @@
-# [sevas.github.com](http://sevas.github.com)
+# [sevas.github.io](http://sevas.github.io)
