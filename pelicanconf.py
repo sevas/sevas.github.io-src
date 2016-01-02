@@ -36,9 +36,7 @@ SITEMAP = {
     }
 }
 
-THEME = 'nikhil-theme'
-#THEME_STATIC_DIR = 'themes'
-
+THEME = 'themes/elegant'
 
 
 # Feed generation is usually not desired when developing

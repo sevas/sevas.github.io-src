@@ -5,7 +5,8 @@ Category: misc
 Tags: 
 Slug: first-post
 Authors: sevas
-Summary: Keep your toys in separate boxes
+Summary: Hello
+
 
 
 Goodbye shitty visual html editors, hello markdown 

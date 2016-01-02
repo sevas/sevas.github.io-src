@@ -1,5 +1,6 @@
 _site/*
 serve/*
 __pycache__
-output/
 .gists/
+
+*.pyc
